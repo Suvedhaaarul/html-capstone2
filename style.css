@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+#home{
+    background-image: url("./6233697.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+.container1{
+    color: black;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 250px 100px 250px 150px;
+}
+.home-p{
+    font-weight: normal;
+}
+span{
+    text-decoration: underline;
+}
+#about{
+    background-color: #DEF5E5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+.profile-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.hey{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: teal;
+    margin: 30px;
+}
+.intro{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+#skills{
+    background-color: #BCEAD5;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+#resume{
+    background-color: #abd4c2;
+}
+.resume{
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+}
+#contact{
+    background-color: #8EC3B0;
+}
+.link{
+    font-size: 20px;
+    word-spacing: 15px;
+}
